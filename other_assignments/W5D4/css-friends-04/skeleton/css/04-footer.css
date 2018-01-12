@@ -1,0 +1,28 @@
+.footer-nav {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #aaa;
+  font-size: 14px;
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.footer-copyright {
+  padding: 20px;
+
+
+}
+
+.footer-link {
+  padding:20px;
+  display: flex;
+
+}
+
+.footer-link a {
+  padding: 0 0 0 20px;
+}
