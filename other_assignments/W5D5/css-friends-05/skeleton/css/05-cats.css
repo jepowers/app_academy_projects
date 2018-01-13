@@ -1,0 +1,42 @@
+.content {
+
+}
+
+.content-header {
+  width: 900px;
+  height: 200px;
+  background-size: cover;
+  background-image: url("../images/cats.jpg");
+  border-bottom: 1px solid #ccc;
+  line-height: 1;
+  display: block;
+  justify-content: space-between;
+  align-content: bottom;
+  margin 0 auto;
+
+}
+
+.content-header h1 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: #000 0 0 10px;
+  display: flex;
+}
+
+.content-header-add-friend {
+  font-weight: bold;
+  color: black;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  /* border: 1px solid #ccc; */
+  display: flex;
+}
+
+.content-header-add-friend:hover {
+  cursor: pointer;
+}
