@@ -1,0 +1,20 @@
+.profile-friends li {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 57px;
+  margin-bottom: 10px;
+}
+
+.profile-friends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile-friends li a::before {
+  width: 57px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  content: attr(title);
+}
